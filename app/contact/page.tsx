@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Mail, MapPin, Send, Clock } from "lucide-react";
+import { ArrowLeft, Mail, Send, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -80,25 +80,6 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                    Subject
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                  >
-                    <option value="">Select a subject</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="garbage-buddy">Garbage Buddy</option>
-                    <option value="ride-buddy">Ride Buddy</option>
-                    <option value="custom-solution">Custom Solution</option>
-                    <option value="partnership">Partnership</option>
-                    <option value="support">Technical Support</option>
-                  </select>
-                </div>
-                
-                <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                     Message
                   </label>
@@ -158,86 +139,6 @@ export default function Contact() {
                     </div>
                   </div>
                 </div>
-
-                <div className="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4">
-                  <div className="bg-purple-100 p-3 rounded-lg">
-                    <MapPin className="h-6 w-6 text-purple-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Visit Us</h3>
-                    <p className="text-gray-600">
-                      123 Innovation Drive<br />
-                      Tech Valley, CA 94043<br />
-                      United States
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Quick answers to questions you may have about our services and process.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">How long does it take to develop an app?</h3>
-                <p className="text-gray-600">
-                  Development time varies based on complexity, but typically ranges from 2-6 months for most projects. 
-                  We&apos;ll provide a detailed timeline during our initial consultation.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you provide ongoing support?</h3>
-                <p className="text-gray-600">
-                  Yes! We offer comprehensive maintenance and support packages to ensure your application 
-                  continues to run smoothly and stays up-to-date with the latest technologies.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Can you work with existing systems?</h3>
-                <p className="text-gray-600">
-                  Absolutely. We specialize in integrating new solutions with existing infrastructure 
-                  and can help modernize legacy systems while maintaining data integrity.
-                </p>
-              </div>
-            </div>
-            
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">What technologies do you use?</h3>
-                <p className="text-gray-600">
-                  We use modern, proven technologies including React, Next.js, Node.js, Python, and cloud platforms 
-                  like AWS and Google Cloud to ensure scalable, reliable solutions.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">How do you handle project communication?</h3>
-                <p className="text-gray-600">
-                  We maintain regular communication through weekly updates, milestone reviews, and are always 
-                  available for questions via email, phone, or video calls.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you offer custom pricing?</h3>
-                <p className="text-gray-600">
-                  Yes, we provide custom quotes based on your specific requirements. Contact us for 
-                  a free consultation and detailed project estimate.
-                </p>
               </div>
             </div>
           </div>
