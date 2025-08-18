@@ -17,10 +17,14 @@ export const metadata: Metadata = {
   description: "We create innovative apps and web applications that simplify your daily tasks. From garbage pickup reminders to ride-sharing solutions, we're here to solve real-world problems.",
   keywords: "apps, web development, software solutions, garbage buddy, ride buddy, mobile apps",
   authors: [{ name: "OutOfBox.Solutions" }],
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/favicon.svg",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
