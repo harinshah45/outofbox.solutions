@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Mail, Phone, MapPin, Send, Clock } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, Send, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -80,19 +80,6 @@ export default function Contact() {
                 </div>
                 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number (Optional)
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                    placeholder="+1 (555) 123-4567"
-                  />
-                </div>
-                
-                <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                     Subject
                   </label>
@@ -154,19 +141,6 @@ export default function Contact() {
                     <p className="text-gray-600 mb-2">Send us an email anytime!</p>
                     <a href="mailto:harin.shah@outofboxsolutions" className="text-indigo-600 hover:text-indigo-700 font-medium">
                       harin.shah@outofboxsolutions
-                    </a>
-                  </div>
-                </div>
-
-                <div className="bg-white rounded-xl shadow-lg p-6 flex items-start space-x-4">
-                  <div className="bg-green-100 p-3 rounded-lg">
-                    <Phone className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <p className="text-gray-600 mb-2">Mon-Fri from 8am to 5pm</p>
-                    <a href="tel:+1234567890" className="text-green-600 hover:text-green-700 font-medium">
-                      +1 (234) 567-890
                     </a>
                   </div>
                 </div>
@@ -297,7 +271,6 @@ export default function Contact() {
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="mailto:harin.shah@outofboxsolutions" className="hover:text-white transition-colors">harin.shah@outofboxsolutions</a></li>
-                <li><a href="tel:+1234567890" className="hover:text-white transition-colors">+1 (234) 567-890</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Support</Link></li>
               </ul>
             </div>

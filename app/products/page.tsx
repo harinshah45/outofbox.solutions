@@ -303,7 +303,6 @@ export default function Products() {
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="mailto:harin.shah@outofboxsolutions" className="hover:text-white transition-colors">harin.shah@outofboxsolutions</a></li>
-                <li><a href="tel:+1234567890" className="hover:text-white transition-colors">+1 (234) 567-890</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Support</Link></li>
               </ul>
             </div>
