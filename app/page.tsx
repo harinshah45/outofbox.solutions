@@ -99,14 +99,14 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Garbage Buddy */}
+            {/* Garbage Go */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="p-8">
                 <div className="flex items-center mb-4">
                   <div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
                     <Globe className="h-6 w-6 text-green-600" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Garbage Buddy</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">Garbage Go</h3>
                 </div>
                 <p className="text-gray-600 mb-6">
                   Never miss garbage pickup day again! Our smart reminder system helps you stay on top of 
@@ -117,7 +117,7 @@ export default function Home() {
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Community</span>
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Eco-Friendly</span>
                 </div>
-                <Link href="https://www.garbage-buddy.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold">
+                <Link href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold">
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>
@@ -185,7 +185,7 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="https://www.garbage-buddy.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Buddy</a></li>
+                <li><a href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Go</a></li>
                 <li><a href="https://www.ridebuddy.co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ride Buddy</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Custom Solutions</Link></li>
               </ul>

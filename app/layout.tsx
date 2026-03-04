@@ -15,11 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OutOfBox.Solutions - Making Life Easier One App at a Time",
   description: "We create innovative apps and web applications that simplify your daily tasks. From garbage pickup reminders to ride-sharing solutions, we're here to solve real-world problems.",
-  keywords: "apps, web development, software solutions, garbage buddy, ride buddy, mobile apps",
+  keywords: "apps, web development, software solutions, garbage go, ride buddy, mobile apps",
   authors: [{ name: "OutOfBox.Solutions" }],
   viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
