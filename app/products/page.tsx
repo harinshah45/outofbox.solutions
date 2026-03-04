@@ -31,7 +31,7 @@ export default function Products() {
         </div>
       </section>
 
-      {/* Garbage Buddy Section */}
+      {/* Garbage Go Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -40,7 +40,7 @@ export default function Products() {
                 <div className="bg-green-100 w-16 h-16 rounded-xl flex items-center justify-center mr-4">
                   <Globe className="h-8 w-8 text-green-600" />
                 </div>
-                <h2 className="text-4xl font-bold text-gray-900">Garbage Buddy</h2>
+                <h2 className="text-4xl font-bold text-gray-900">Garbage Go</h2>
               </div>
               
               <p className="text-xl text-gray-600 mb-6">
@@ -75,7 +75,7 @@ export default function Products() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="https://www.garbage-buddy.com" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
+                <Link href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center">
                   Visit App <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link href="/contact" className="border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors">
@@ -88,7 +88,7 @@ export default function Products() {
               <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-8 text-center">
                 <div className="bg-white rounded-xl p-6 shadow-lg">
                   <Globe className="h-16 w-16 text-green-600 mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Garbage Buddy</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Garbage Go</h3>
                   <p className="text-gray-600 mb-4">Your smart waste management companion</p>
                   <div className="space-y-2 text-sm text-gray-500">
                     <div className="flex justify-between">
@@ -201,11 +201,11 @@ export default function Products() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Garbage Buddy Benefits */}
+            {/* Garbage Go Benefits */}
             <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="flex items-center mb-6">
                 <Globe className="h-8 w-8 text-green-600 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-900">Garbage Buddy Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Garbage Go Benefits</h3>
               </div>
               
               <ul className="space-y-4">
@@ -293,7 +293,7 @@ export default function Products() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="https://www.garbage-buddy.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Buddy</a></li>
+                <li><a href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Go</a></li>
                 <li><a href="https://www.ridebuddy.co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ride Buddy</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Custom Solutions</Link></li>
               </ul>
