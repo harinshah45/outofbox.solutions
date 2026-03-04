@@ -91,7 +91,6 @@ export default function Contact() {
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
                     <option value="garbage-go">Garbage Go</option>
-                    <option value="ride-buddy">Ride Buddy</option>
                     <option value="custom-solution">Custom Solution</option>
                     <option value="partnership">Partnership</option>
                     <option value="support">Technical Support</option>
@@ -262,7 +261,6 @@ export default function Contact() {
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Go</a></li>
-                <li><a href="https://www.ridebuddy.co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ride Buddy</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Custom Solutions</Link></li>
               </ul>
             </div>

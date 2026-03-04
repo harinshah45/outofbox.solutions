@@ -123,28 +123,7 @@ export default function Home() {
             </div>
 
             {/* Ride Buddy */}
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="p-8">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mr-4">
-                    <Smartphone className="h-6 w-6 text-blue-600" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900">Ride Buddy</h3>
-                </div>
-                <p className="text-gray-600 mb-6">
-                  Connect with fellow commuters and share rides efficiently. Our ride-pooling platform 
-                  helps reduce traffic, save money, and build community connections.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Ride Sharing</span>
-                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Cost Saving</span>
-                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Community</span>
-                </div>
-                <Link href="https://www.ridebuddy.co" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </div>
-            </div>
+            {/* Removed Ride Buddy section */}
           </div>
         </div>
       </section>
@@ -185,7 +164,6 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="https://garbagego.ca" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Garbage Go</a></li>
-                <li><a href="https://www.ridebuddy.co" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Ride Buddy</a></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Custom Solutions</Link></li>
               </ul>
             </div>
